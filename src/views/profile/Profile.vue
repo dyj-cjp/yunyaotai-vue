@@ -35,6 +35,48 @@
         <span class='message_text'>我的留言</span>
         <img class='purchase_right' src='../../assets/mine/right.png'>
       </div>
+
+      <div class='message' @click="toMyMessage">
+        <img class='message_img' src='../../assets/mine/coln3.png'>
+        <span class='message_text'>我的留言</span>
+        <img class='purchase_right' src='../../assets/mine/right.png'>
+      </div>
+
+            <div class='message' @click="toMyMessage">
+        <img class='message_img' src='../../assets/mine/coln3.png'>
+        <span class='message_text'>develop分支</span>
+        <img class='purchase_right' src='../../assets/mine/right.png'>
+      </div>
+
+                  <div class='message' @click="toMyMessage">
+        <img class='message_img' src='../../assets/mine/coln3.png'>
+        <span class='message_text'>main default分支</span>
+        <img class='purchase_right' src='../../assets/mine/right.png'>
+      </div>
+                        <div class='message' @click="toMyMessage">
+        <img class='message_img' src='../../assets/mine/coln3.png'>
+        <span class='message_text'>main分支提交 </span>
+        <img class='purchase_right' src='../../assets/mine/right.png'>
+      </div>
+
+                              <div class='message' @click="toMyMessage">
+        <img class='message_img' src='../../assets/mine/coln3.png'>
+        <span class='message_text'>lzw分支提交 </span>
+        <img class='purchase_right' src='../../assets/mine/right.png'>
+      </div>
+
+                                    <div class='message' @click="toMyMessage">
+        <img class='message_img' src='../../assets/mine/coln3.png'>
+        <span class='message_text'>lzw 2分支提交 </span>
+        <img class='purchase_right' src='../../assets/mine/right.png'>
+      </div>
+      
+
+                                          <div class='message' @click="toMyMessage">
+        <img class='message_img' src='../../assets/mine/coln3.png'>
+        <span class='message_text'>cjp 分支提交 </span>
+        <img class='purchase_right' src='../../assets/mine/right.png'>
+      </div>
     </div>
     <!-- action="/api/file/upload" -->
     <!-- <el-upload
